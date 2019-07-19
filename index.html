@@ -12,7 +12,15 @@
            @media only screen and (max-width:560px) {
                 .wrapper {
                     font-size:14px !important;
+                  }
                 }
+            @media only screen and (min-width:481px) {
+            
+              .generic {
+                  width:100px !important;
+              }
+            
+            }
         </style>
 
 
@@ -26,8 +34,9 @@
 		</div>
 
 	<div id="logo">
-	<!--	<img src="images/logo.jpg" width=245px media="(max-width:480px)"> -->
-	<picture><source media="(min-width:481px)" srcset="images/logo.jpg"> <img src="images/logo_2.jpg"> </picture>
+		<img src="images/logo.jpg" width=245px class="generic"> 
+  <!--
+	<picture><source media="(min-width:481px)" srcset="images/logo.jpg"> <img src="images/logo_2.jpg"> </picture> -->
 	</div>
 	<div id="heading" style="background-color:#01358B;">
 		<h1 style="font-family:arial;color:#ffffff;font-weight:400;margin: 20px,20px,20px,20px;">
