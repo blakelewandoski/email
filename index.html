@@ -14,12 +14,17 @@
                     font-size:14px !important;
                   }
                 }
-            @media only screen and (min-width:481px) {
+            @media only screen and (max-width:481px) {
             
               .generic {
                   width:100px !important;
               }
             
+            }
+            @media only screen and (max-width:481px){
+              .pic{
+                width:400px !important;
+              }
             }
         </style>
 
@@ -45,8 +50,9 @@
 	</div>
 		<div id="introduction" style="font-family: arial;line-height:18px;">
 			<p>
-				<picture><source media="(min-width:481px)" srcset="images/356.jpg"> <img src="images/356_2.jpg" alt="description" style="float:left;margin-left:20px;margin-right:20px;margin-bottom:20px;"> </picture>
-				<!--<img src="images/356.jpg" alt="description" style="float:left;margin-left:20px;margin-right:20px;margin-bottom:30px;"> -->
+        <!--
+				<picture><source media="(min-width:481px)" srcset="images/356.jpg"> <img src="images/356_2.jpg" alt="description" style="float:left;margin-left:20px;margin-right:20px;margin-bottom:20px;"> </picture> -->
+				<img src="images/356.jpg" alt="description" class="pic" style="float:left;margin-left:20px;margin-right:20px;margin-bottom:30px;"> 
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ex, repudiandae, molestiae, saepe eveniet quibusdam in cupiditate.
 			</p>
 			<ul>
